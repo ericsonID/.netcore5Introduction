@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "module": "commonjs"
+  },
+  "angularCompilerOptions": {
+    "moduleResolution": "Node",
+    "entryModule": "app/app.server.module#AppServerModule"
+  }
+}
